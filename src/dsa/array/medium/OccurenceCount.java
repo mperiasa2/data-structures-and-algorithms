@@ -24,7 +24,7 @@ public class OccurenceCount {
 	
 	/**
 	 * V1: Brute Force Solution
-	 * Time Complexity: O(qn)
+	 * Time Complexity: O(q*n)
 	 */
 	public static int[] matchingStringsV1(String[] inputStrings, String[] queryStrings) {
 		int[] results = new int[queryStrings.length];
